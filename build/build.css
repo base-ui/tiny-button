@@ -1,0 +1,41 @@
+.ui.button {
+  cursor: pointer;
+  text-align: center;
+  font-smoothing: antialiased;
+  display: inline-block;
+  line-height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #bdc3c7;
+}
+.ui.button:hover {
+  background-color: #cacfd2;
+}
+.ui.button:active {
+  background-color: #a1a6a9;
+}
+.ui.button.disabled {
+  cursor: default;
+}
+button.ui.button {
+  font-family: inherit;
+  margin: 0;
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.ui.button.tiny {
+  padding: 0 10px;
+  font-size: 10px;
+  height: 30px;
+  line-height: 30px;
+}
+.ui.button.tiny.compact {
+  height: 20px;
+  line-height: 20px;
+}

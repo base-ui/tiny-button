@@ -1,0 +1,17 @@
+{
+  "name": "tiny-button",
+  "repo": "base-ui/tiny-button",
+  "description": "Tiny button",
+  "version": "0.0.1",
+  "paths": [],
+  "local": [],
+  "keywords": [],
+  "dependencies": {
+    "base-ui/button": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "css/tiny-button.css"
+  ]
+}
